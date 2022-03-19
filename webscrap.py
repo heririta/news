@@ -82,7 +82,7 @@ def google_search(query):
     return parse_results(response)
 
 
-results = google_search("web scraping")
+results = google_search('jokowi')
 print(results)
 print(scrape_google("data"))
 print(get_results("data"))
